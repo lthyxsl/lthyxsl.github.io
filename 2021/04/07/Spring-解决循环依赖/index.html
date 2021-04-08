@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spring 解决循环依赖 | Thyxsl</title><meta name="keywords" content="Java,Spring"><meta name="author" content="lthyxsl"><meta name="copyright" content="lthyxsl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Spring三级缓存解决循环依赖问题 只能解决单例Bean的Setter方式循环依赖问题   一级缓存    singletonObjects：完成初始化的单例对象的cache（一级缓存） 二级缓存    earlySingletonObjects ：完成实例化但是尚未初始化的，提前暴光的单例对象的Cache （二级缓存） 三级缓存    singletonFactories ： 进入实例化阶段的">
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spring 解决循环依赖 | Thyxsl</title><meta name="keywords" content="Java,Spring"><meta name="author" content="lthyxsl"><meta name="copyright" content="lthyxsl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Spring三级缓存解决循环依赖问题 只能解决单例Bean的Setter方式循环依赖问题   一级缓存    singletonObjects：完成初始化的单例对象的cache（一级缓存） 二级缓存    earlySingletonObjects ：完成实例化但是尚未初始化的，提前暴光的单例对象的Cache （二级缓存） 三级缓存    singletonFactories ： 进入实例化阶段的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Spring 解决循环依赖">
 <meta property="og:url" content="https://lthyxsl.github.io/2021/04/07/Spring-%E8%A7%A3%E5%86%B3%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96/index.html">
@@ -18,7 +18,7 @@
   localSearch: undefined,
   translate: undefined,
   noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":true},
   copy: {
     success: '复制成功',
     error: '复制错误',

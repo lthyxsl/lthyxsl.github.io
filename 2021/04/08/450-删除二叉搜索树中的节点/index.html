@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>450. 删除二叉搜索树中的节点 | Thyxsl</title><meta name="keywords" content="leetcode"><meta name="author" content="lthyxsl"><meta name="copyright" content="lthyxsl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="450. 删除二叉搜索树中的节点 找到待删除结点后的删除思路：  如果当前待删除结点root为叶子结点：则找到它的前驱父节点的孩子指针指向空即可 如果当前待删除结点root为非叶子节点，如果待删除结点的左子树非空，则找到它的左子树的最右结点p，q保存p的前驱父节点，将p的val赋值给待删除结点root，然后删除p（q的右孩子指针指向p的左孩子指针） 如果当前待删除结点root为非叶子节点，且roo">
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>450. 删除二叉搜索树中的节点 | Thyxsl</title><meta name="keywords" content="leetcode"><meta name="author" content="lthyxsl"><meta name="copyright" content="lthyxsl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="450. 删除二叉搜索树中的节点 找到待删除结点后的删除思路：  如果当前待删除结点root为叶子结点：则找到它的前驱父节点的孩子指针指向空即可 如果当前待删除结点root为非叶子节点，如果待删除结点的左子树非空，则找到它的左子树的最右结点p，q保存p的前驱父节点，将p的val赋值给待删除结点root，然后删除p（q的右孩子指针指向p的左孩子指针） 如果当前待删除结点root为非叶子节点，且roo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="450. 删除二叉搜索树中的节点">
 <meta property="og:url" content="https://lthyxsl.github.io/2021/04/08/450-%E5%88%A0%E9%99%A4%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9/index.html">
@@ -17,7 +17,7 @@
   localSearch: undefined,
   translate: undefined,
   noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":true},
   copy: {
     success: '复制成功',
     error: '复制错误',
